@@ -3,9 +3,6 @@ import random
 from tkinter import *
 from tkinter import font
 from functools import partial
-from pprint import pprint
-
-#from tkinter import ttk
 
 consonants=["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z"]
 password=""
@@ -76,8 +73,6 @@ def updateValue(inputObject,newValue):
     inputObject.insert(0,newValue)
 
 def updateInputs():
-    #global num_chunks,num_numbers,num_passwords,num_syllables#,inputNumChunks,inputNumNumbers,inputNumSyllables,inputSpecialSymbols
-
     updateValue(inputNumChunks,num_chunks)
     updateValue(inputNumSyllables,num_syllables)
     updateValue(inputNumNumbers,num_numbers)
