@@ -1,5 +1,6 @@
 # Generator of readable passwords
 ![Screenshot](Screenshot.png)
+
 This is intended to be a way to generate somewhat secure random passwords that can be read. This makes it easier to type them, especially on phones.
 
 ## Building the app
