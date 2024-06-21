@@ -66,6 +66,11 @@ fn exit_app() {
 }
 
 fn main() {
+    //So, one day webkit decides to ship an update that breaks the app on some configurations.
+    //Hope to remove these env declarations soon, as they will be marked unsafe on future versions of rust.
+    std::env::set_var("WEBKIT_DISABLE_COMPOSITING_MODE", "1");
+    std::env::set_var("WEBKIT_DISABLE_DMABUF_RENDERER", "1");
+
     tauri::Builder::default()
         .invoke_handler(tauri::generate_handler![send_a_password_to_the_frontend,exit_app])
         .run(tauri::generate_context!())
