@@ -3,7 +3,7 @@
 
 const CONSONANTS: [&str; 21] = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"];
 const VOWELS: [&str; 5] = ["a", "e", "i", "o", "u"];
-const SPECIAL_CHARACTERS: [&str; 8] = ["/", ".", ",", "?", "#", "=", "!", "-"];
+const SPECIAL_CHARACTERS: [&str; 11] = ["/", ".", ",", "?", "#", "=", "!", "+", "-","$","%"];
 
 fn generate_a_syllable() -> String {
     let mut return_buffer = String::new();
