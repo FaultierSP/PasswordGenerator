@@ -18,7 +18,7 @@ function App() {
   const initialValues={
     numberOfChunks:2,
     digitsPerChunk:4,
-    numberOfSyllables:3,
+    numberOfSyllables:4,
   };
   const [messageApi,contextHolder]=message.useMessage();
 
