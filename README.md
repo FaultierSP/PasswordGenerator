@@ -1,3 +1,6 @@
+# Project moved to:
+https://codeberg.org/FaultierSP/PasswordGenerator
+
 # Generator of readable passwords
 ![Screenshot](Screenshot.png)
 
